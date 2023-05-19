@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.9500661,
+                    43.3409728
+                ]
+            },
+            "properties": {
+                "title": "Almaty Railstation",
+                "name": "Almaty Railstation\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.6099329,
+                    42.2990726
+                ]
+            },
+            "properties": {
+                "title": "Shymkent Railstation",
+                "name": "Shymkent Railstation\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.7606621,
+                    43.6012941
+                ]
+            },
+            "properties": {
+                "title": "Shu Railstation",
+                "name": "Shu Railstation\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.3786566,
+                    42.869721
+                ]
+            },
+            "properties": {
+                "title": "Taraz Railstation",
+                "name": "Taraz Railstation\n"
+            }
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Fondamento:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+
+
+    <!-- 3d model -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+
+</head>
+
+
+
+
+<style>
+    body {
+        background-color: black;
+    }
+
+    .logo {
+        text-align: center;
+        justify-content: center;
+        margin-top: -300px;
+        opacity: 0.8;
+        /* margin-top: 5px; */
+    }
+
+    .enterbutton {
+        text-align: center;
+        justify-content: center;
+        margin-top: -200px;
+        /* margin-bottom: 0px; */
+        opacity: 0.4;
+    }
+
+
+    .enterbutton:hover {
+        animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+        transform: translate3d(0, 0, 0);
+        perspective: 1000px;
+    }
+
+    @keyframes shake {
+
+        10%,
+        90% {
+            transform: translate3d(-1px, 0, 0);
+        }
+
+        20%,
+        80% {
+            transform: translate3d(2px, 0, 0);
+        }
+
+        30%,
+        50%,
+        70% {
+            transform: translate3d(-2px, 0, 0);
+        }
+
+        40%,
+        60% {
+            transform: translate3d(2px, 0, 0);
+        }
+    }
+
+
+
+
+
+
+
+    .title {
+        /* font-family: 'Eagle Lake', cursive; */
+        opacity: 1;
+        position: relative;
+        font-family: 'Fondamento', cursive;
+        font-size: 60px;
+        color: rgb(106, 0, 0);
+        text-align: center;
+        justify-content: center;
+        margin-top: -100px;
+
+
+        background: linear-gradient(0deg, rgb(106, 0, 0), black, rgb(106, 0, 0));
+        background-size: 200% 200%;
+        letter-spacing: -5px;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animated_text 8s ease-in-out infinite;
+        -moz-animation: animated_text 8s ease-in-out infinite;
+        -webkit-animation: animated_text 8s ease-in-out infinite;
+
+
+
+    }
+
+    @keyframes animated_text {
+        0% {
+            background-position: 50% 0%;
+        }
+
+        50% {
+            background-position: 50% 100%;
+        }
+
+        100% {
+            background-position: 50% 00%;
+        }
+    }
+
+
+
+    .subtitle {
+        opacity: 1;
+        font-family: 'Grechen Fuemen', cursive;
+        font-size: 40px;
+        color: rgb(90, 0, 0);
+        text-align: center;
+        justify-content: center;
+        margin-top: -350px;
+    }
+
+
+    model-viewer {
+        z-index: 999;
+        margin-bottom: 600px;
+        margin-left: 700px;
+        height: 100px;
+        background-color: transparent;
+    }
+</style>
+
+<body>
+    <model-viewer class="model" src="../assets/horse_.glb" alt="horse" shadow-intensity="1" auto-rotate ar autoplay>
+    </model-viewer>
+    <audio id="myAudio" autoplay loop style="display:none;">
+        <source src="../assets/piklans.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="logo"><img src="../imgs/buddha-2.png" width="50px" height="55px" />
+    </div>
+
+    <div class="enterbutton">
+        <a href="index.html">
+            <img src="../imgs/road.png" />
+        </a>
+    </div>
+
+    <div class="subtitle">
+        <h2>The</h2>
+
+    </div>
+
+
+    <div class="title">
+        <h1>Silk Road</h1>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="../js/scripts.js"></script>
+</body>
+
+</html>

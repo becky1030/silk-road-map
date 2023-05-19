@@ -1,0 +1,2313 @@
+{
+    "type": "FeatureCollection",
+    "name": "Untitled layer",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tiantishan Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.2333,
+                    29.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tianlongshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.329722,
+                    27.600833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yunnan Provincial Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.683333,
+                    25.066667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kunming Municipal Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.683333,
+                    25.066667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kunming City, Yunnan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.683333,
+                    25.066667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Dali Bai Autonomous Prefecture, Yunnan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.15,
+                    25.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Chongshengsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.156389,
+                    25.700278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Museum of Dali City"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.156389,
+                    25.700278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Dali Bai Nationality Autonomous Prefecture Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.156389,
+                    25.700278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Dali City, Yunnan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.156389,
+                    25.700278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jianchuan Caves, Shibaoshan and Shizhongshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.8667,
+                    26.4667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Lijiang City, Yunnan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.233473,
+                    26.883425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Neijiang City, Zizhong County, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.866693,
+                    29.766699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Wen Miao"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.8667,
+                    29.7667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Wu Miao"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.8667,
+                    29.7667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yongqingsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.8667,
+                    29.7667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Zizhong Zhonglongshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.8667,
+                    29.7667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mahao Tombs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.75,
+                    29.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Lingyunsi, Lingbao Pagoda"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.75,
+                    29.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Leshan Great Buddha"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.75,
+                    29.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jiajiang Qianfoya"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.75,
+                    29.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Leshan City, Jiajiang County, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.75045,
+                    29.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Wofoyuan Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3167,
+                    30.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yuanxuedong"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3167,
+                    30.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Xuanmiaoguan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3167,
+                    30.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Qianfozhai"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3167,
+                    30.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mingshansi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3167,
+                    30.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Piludong"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3167,
+                    30.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ziyang City, Anyue County, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.3167,
+                    30.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Huguang Huiguan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.506944,
+                    29.55
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Three Gorges Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.506944,
+                    29.55
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Chongqing Municipal Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.506958,
+                    29.55
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Chongqing City, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.506944,
+                    29.55
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hechuan Cultural Office"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.266667,
+                    29.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shimenshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.472527,
+                    29.382773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Miaogaoshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.472527,
+                    29.382773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shizhuanshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.472527,
+                    29.382773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Baodingshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.472527,
+                    29.382773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nanshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.472527,
+                    29.382773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Beishan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.472527,
+                    29.382773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Three Gorges Dam"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.01,
+                    30.83
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Bazhong Nankan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7,
+                    31.85
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shuininsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7,
+                    31.85
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Bazhong City, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7,
+                    31.85
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Bazhong Beikan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7,
+                    31.85
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Longrisi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7,
+                    31.85
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Huangzesi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.816667,
+                    32.433333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guangyuan City, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.816667,
+                    32.433333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guanyinya"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.816667,
+                    32.433333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Qianfoya"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.816667,
+                    32.433333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Sichuan University Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066667,
+                    30.663611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Chengdu Jinsha Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066667,
+                    30.663611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yongling Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066667,
+                    30.663611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Chengdu City, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066669,
+                    30.663612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Feixiange"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066667,
+                    30.663611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Baoguangsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066667,
+                    30.663611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guihu Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066667,
+                    30.663611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shangyejie"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.066667,
+                    30.663611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Deyang City, Guanghan, Sichuan Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.25,
+                    30.99
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Sanxingdui Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.25,
+                    30.99
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Gannan Tibetan Autonomous Prefecture, Xiahe County, XUAR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.508056,
+                    34.985556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Labrang Monastery"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.508056,
+                    34.985556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Famensi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.893816,
+                    34.435974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Baoji City, Fufeng County, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.375278,
+                    34.353611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Majishan Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.002779,
+                    34.352222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Lashaosi Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.733,
+                    34.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Fuxi Shrine Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.73333,
+                    34.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tianshui City, Gansu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.733,
+                    34.583333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hanzhong City, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.026111,
+                    33.0775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hanzhong Museum (Guhantai)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.026111,
+                    33.0775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Huashan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.083333,
+                    34.483333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Lintong City, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.199987,
+                    34.366663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Xian City, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9,
+                    34.266667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shaanxi Historical Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.95016,
+                    34.2255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Xian Municipal Bureau of Cultural Relics and Archaeology"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.863068,
+                    34.25103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mausoleum of First Qin Emperor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.273107,
+                    34.384919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Museum of Terracotta Warriors and Horses"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.273108,
+                    34.384919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Weinan City, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.5,
+                    34.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yonglegong"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.750122,
+                    34.700289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yuncheng City, Ruicheng County, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    110.75,
+                    34.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yichang City, Hubei Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.280272,
+                    30.708338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Suzhou City, Jiangsu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.666675,
+                    31.349998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shanghai"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.5,
+                    31.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guangshengsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.516667,
+                    36.083333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Linfen City, Hongdong County, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.516667,
+                    36.083333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Pingyao City"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.178056,
+                    37.2025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Zhengguosi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.178056,
+                    37.2025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shuanglinsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.178051,
+                    37.202492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jizhong City, Pingyao County, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.178053,
+                    37.202495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shaanxi Provincial Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.5,
+                    37.8333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shaanxi Prefectural Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.560278,
+                    37.869444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jincisi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.560278,
+                    37.869444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Taiyuan City, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.560278,
+                    37.869443
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Foguangsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.246792,
+                    38.710661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Xinzhou City, Wutai County, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.583313,
+                    38.999978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jingfusi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.416667,
+                    39.316667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shajiasi Village"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.416667,
+                    39.316667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shuozhou City, Ying County, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.416724,
+                    39.316652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Chongfusi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.416667,
+                    39.316667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Fogongsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.416667,
+                    39.316667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yungang Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.122222,
+                    40.109722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Datong City, Shaanxi Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.283324,
+                    40.066655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shanhuasi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.283333,
+                    40.066667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Dongcheng District"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.4,
+                    39.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tiananmen Square"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.391666,
+                    39.903346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Forbidden City"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.390556,
+                    39.914722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Great Wall"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.5619,
+                    40.438017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Huairou District, Beijing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.690292,
+                    40.318089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Baicheng County, Asku Prefecture, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.833,
+                    45.616667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hohhot City, Inner Mongolia AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.650004,
+                    40.81666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Dafosi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.45,
+                    38.933333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Zhangye City, Gansu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.45,
+                    38.933333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yongchang County"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.0167,
+                    38.2333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Wuwei City, Gansu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.633001,
+                    37.933332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Leitai Han Tomb"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.836021,
+                    37.94183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Haizangsi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.0658,
+                    38.066696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Helanshan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.96667,
+                    38.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Xixia (Tangut) Imperial Tombs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.966718,
+                    38.899926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yinchuan City, Ningxia Hui AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.266677,
+                    38.466663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ningxia Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.262299,
+                    38.467899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guyuan City, Ningxia Hui AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.283333,
+                    36.000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Guyuan Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.283333,
+                    36.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Binglingsi Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.1675,
+                    35.868333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Qutansi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.295571,
+                    36.355567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Lanzhou City, Gansu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8,
+                    36.05
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Gansu Archaeological Institute and Research Center"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8,
+                    36.05
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Xumishan Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.165649,
+                    36.894451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Xining City, Qinghai Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.766668,
+                    36.633333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tongren County"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.070831,
+                    35.617502
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Huangnan Tibetan Autonomous Prefecture, Qinghai Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.116667,
+                    35.55
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Matisi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.902903,
+                    38.177361
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mogao Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.804167,
+                    40.037222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jiuquan City, Dunhuang, Gansu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.650001,
+                    40.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yangguan Fort"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.65,
+                    40.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Dong Qianfo Dong (East Thousand Buddha Caves)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.65,
+                    40.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yulin Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    95.95,
+                    39.95
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jiayuguan City, Gansu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.3,
+                    38.816667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jiuquan City, Gansu Province"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.566666,
+                    39.766667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jiayuguan Fort"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.3,
+                    39.816667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Baiyanggou"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.504386,
+                    42.8385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hami, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.504386,
+                    42.8385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Hami Cultural Office Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.504398,
+                    42.838494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Urumchi City, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.583333,
+                    43.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Beiting Ancient City"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.19,
+                    44.038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Changji Hui Autonomous Prefecture, Jimsar County, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.06667,
+                    43.983328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Gaochang Ancient City"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.52918,
+                    42.852861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Asitana (Astana) Tombs"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.527114,
+                    42.88155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Jiaohe Ancient City"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.048056,
+                    42.955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Turpan, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.183333,
+                    42.983333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Bozikelike (Bezeklik) Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.544722,
+                    42.956111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Flaming Mountains (Huozhoushan)(Tianshan)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.544722,
+                    42.956111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tuyugou (Tuyuq)(Toyok) Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.544722,
+                    42.956111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shengjinkou Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.544722,
+                    42.956111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Korla City, Bayingholin Mongol Autonomous Prefecture, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.133333,
+                    41.65
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kucha, Kuqa County, Asku Prefecture, XUAR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.9,
+                    41.65
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kumutula (Kumtura) Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.9,
+                    41.65
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Senmusaimu (Simisim) Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.141944,
+                    41.863889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Subashi Ancient City"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.03333,
+                    41.855556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kezi'er (Kizil) Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.5014,
+                    41.78057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Duldur Aqur Ruins"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.500833,
+                    41.783056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Tumshuq (Tumushuke)(Tumushuq) City, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.966667,
+                    41.366667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Aksu City, Aksu Prefecture, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.250001,
+                    41.166667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Sanxiandong Caves"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.75,
+                    39.65
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mo'er (Mor)(Mauri Tim) Stupa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.05,
+                    39.466667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kashgar (Kaxgar), Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.05,
+                    39.466667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Silk Road Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.98761,
+                    39.460011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Shache (Yarkand) County, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.25,
+                    38.416667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Taklamakan (Taklimakan) Desert"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.177757,
+                    38.89104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yutian (Keriya Oasis)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.6,
+                    36.883333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Akesipier (Aksipil)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.167,
+                    37.25
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Rewake (Rawark) Stupa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.163453,
+                    37.340628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kumulabate (Kumlabat) Monastery"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.052217,
+                    37.241114
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Khotan (Hotan)(Hetian) Prefecture, Xinjiang Uyghur AR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.016667,
+                    37.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Yotkan Ruins"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.016667,
+                    37.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Khotan Cultural Museum"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.016667,
+                    37.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Langru Ruins"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.621,
+                    36.893
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Mailikeawati (Melikawat) Ruins"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.895279,
+                    36.945279
+                ]
+            }
+        }
+    ]
+}

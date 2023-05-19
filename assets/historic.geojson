@@ -1,0 +1,507 @@
+{
+    "type": "FeatureCollection",
+    "name": "historic",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hatra, Iraq",
+                "color": "#33C9EB",
+                "Name": "Hatra, Iraq"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    42.73460623684538,
+                    35.57625278402669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ancient City of Aleppo, Syrian Arab Republic",
+                "color": "#fcba03",
+                "Name": "Ancient City of Aleppo, Syrian Arab Republic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.13957739189274,
+                    36.208801335825356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Archaeological Remains of the Bamiyan Valley, Afghanistan",
+                "color": "#730834",
+                "Name": "Archaeological Remains of the Bamiyan Valley, Afghanistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    67.82927256477456,
+                    34.83588373527318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Bam and its Cultural Landscape, Iran (Islamic Republic of)",
+                "color": "#d91667",
+                "Name": "Bam and its Cultural Landscape, Iran (Islamic Republic of)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.117277347719625,
+                    58.36957424947372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "City of Safranbolu, Türkiye",
+                "color": "#167ad9",
+                "Name": "City of Safranbolu, Türkiye"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.68328127128924,
+                    41.24942053319572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Historic Centre of Macao, China",
+                "color": "#16d99b",
+                "Name": "Historic Centre of Macao, China"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.53247733396461,
+                    22.187866512744897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Historic City of Ayutthaya, Thailand",
+                "color": "#162eb5",
+                "Name": "Historic City of Ayutthaya, Thailand"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.53247733396461,
+                    22.187866512744897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Historic Monuments of Ancient Nara, Japan",
+                "color": "#652f91",
+                "Name": "Historic Monuments of Ancient Nara, Japan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.83218171764503,
+                    34.67996436182506
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Historical Monuments at Makli, Thatta, Pakistan",
+                "color": "#2f5991",
+                "Name": "Historical Monuments at Makli, Thatta, Pakistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    67.9031712702334,
+                    24.758398220863608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Hoi An Ancient Town, Viet Nam",
+                "color": "#11f2c5",
+                "Name": "Hoi An Ancient Town, Viet Nam"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.32606996231166,
+                    15.878014182591345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Kunya-Urgench, Turkmenistan",
+                "color": "#11f2c5",
+                "Name": "Kunya-Urgench, Turkmenistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.18203418400883,
+                    42.32403178894323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "La Lonja de la Seda de Valencia, Spain",
+                "color": "#11f264",
+                "Name": "La Lonja de la Seda de Valencia, Spain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.37785783392756817,
+                    39.474509896630224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Land of Frankincense, Oman",
+                "color": "#5cf211",
+                "Name": "Land of Frankincense, Oman"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.159138265943824,
+                    17.018593205620245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Lumbini(the Birthplace of the Lord Buddha), Nepal",
+                "color": "#acb504",
+                "Name": "Lumbini(the Birthplace of the Lord Buddha), Nepal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.27617013495662,
+                    27.469477287816016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Mausoleum of Khoja Ahmed Yasawi, Kazakhstan",
+                "color": "#b57404",
+                "Name": "Mausoleum of Khoja Ahmed Yasawi, Kazakhstan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.27166862576294,
+                    43.29789287349074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Minaret and Archaeological Remains of Jam, Afghanistan",
+                "color": "#fabf5a",
+                "Name": "Minaret and Archaeological Remains of Jam, Afghanistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    64.51558883939862,
+                    34.3965634718561
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Mogao Caves, China",
+                "color": "#fa8d5a",
+                "Name": "Mogao Caves, China"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.80917591263655,
+                    40.04165667409959
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Mount Emei Scenic Area(including Leshan Giant Buddha Scenic Area), China",
+                "color": "#756964",
+                "Name": "Mount Emei Scenic Area(including Leshan Giant Buddha Scenic Area), China"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.33589566360995,
+                    29.516865049096534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Old Walled City of Shibam, Yemen",
+                "color": "#fa5102",
+                "Name": "Old Walled City of Shibam, Yemen"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.63636876716433,
+                    15.92135165173297
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Orkhon Valley Cultural Landscape, Mongolia",
+                "color": "#7b64d9",
+                "Name": "Orkhon Valley Cultural Landscape, Mongolia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.72877947803124,
+                    47.45056050232472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Petra, Jordan",
+                "color": "#60558a",
+                "Name": "Petra, Jordan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.44358957298618,
+                    30.331698961861125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Proto-urban Site of Sarazm, Tajikistan",
+                "color": "#88558a",
+                "Name": "Proto-urban Site of Sarazm, Tajikistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    67.46084892302355,
+                    39.50800500779466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Samarkand, Uzbekistan",
+                "color": "#010b75",
+                "Name": "Samarkand, Uzbekistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    66.9687283842504,
+                    39.65112233308815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Samarra Archaeological City, Iraq",
+                "color": "#a6adf5",
+                "Name": "Samarra Archaeological City, Iraq"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.90463112685883,
+                    34.177992434645354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Sulaiman-Too Sacred Mountain, Kyrgyzstan",
+                "color": "#a6d5f5",
+                "Name": "Sulaiman-Too Sacred Mountain, Kyrgyzstan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.90463112685883,
+                    34.177992434645354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Tabriz Historic Bazaar Complex, Iran (Islamic Republic of)",
+                "color": "#a6f5e7",
+                "Name": "Tabriz Historic Bazaar Complex, Iran (Islamic Republic of)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.29412764409851,
+                    38.08253245336068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Taxila, Pakistan",
+                "color": "#a6f5c2",
+                "Name": "Taxila, Pakistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.8396139514251,
+                    33.746486992590945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Chang'an-Tianshan Corridor, (China, Kazakhstan, Kyrgyzstan)",
+                "color": "#000000",
+                "Name": "Chang'an-Tianshan Corridor, (China, Kazakhstan, Kyrgyzstan)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.6292250620150,
+                    42.988140492759364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Tyre, Lebanon",
+                "color": "#000000",
+                "Name": "Tyre, Lebanon"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.199103113846334,
+                    33.27052896931868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Venice and its Lagoon, Italy",
+                "color": "#f5baa6",
+                "Name": "Venice and its Lagoon, Italy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.316025324749265,
+                    45.440394068016424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Walled City of Baku with the Shirvanshah's Palace and Maiden Tower, Azerbaijan",
+                "color": "#f5baa6",
+                "Name": "Walled City of Baku with the Shirvanshah's Palace and Maiden Tower, Azerbaijan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.83387147480685,
+                    40.36621405432522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Maiden Tower, Azerbaijan",
+                "color": "#f5baa6",
+                "Name": "Maiden Tower, Azerbaijan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.837347617826424,
+                    40.36627127592993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "The Historic Centre of Bukhara, Uzbekistan",
+                "color": "#000000",
+                "Name": "The Historic Centre of Bukhara, Uzbekistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    64.453695033486,
+                    39.76814774473105
+                ]
+            }
+        }
+    ]
+}

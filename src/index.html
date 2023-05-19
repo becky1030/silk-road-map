@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Mapbox Storytelling</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="icon" type="image/x-icon"
+        href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&family=Chivo+Mono:wght@600&family=Foldit:wght@300;400;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+
+
+
+    <!-- turf -->
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            /* font-family: 'Alegreya Sans', sans-serif; */
+            /* font-family: 'Chivo Mono', monospace; */
+            /* font-family: 'Foldit', cursive; */
+            font-family: 'Oswald', sans-serif;
+
+
+
+
+        }
+
+        a,
+        a:hover,
+        a:visited {
+            color: #0071bc;
+        }
+
+        #map {
+            top: 0;
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+        }
+
+        #mapInset {
+            bottom: 50px;
+            right: 30px;
+            height: 180px;
+            width: 250px;
+            max-width: 100%;
+            position: fixed;
+            z-index: 1;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+            pointer-events: none;
+        }
+
+        #mapInset .mapboxgl-ctrl-bottom-left {
+            display: none;
+        }
+
+        @media (max-width: 500px) {
+            #mapInset {
+                display: none;
+            }
+        }
+
+        #header {
+            margin-top: 0px;
+            margin-bottom: 1000px;
+            /* width: 100%;
+            height: 1000px; */
+            /* text-align: center;
+            justify-content: center; */
+            position: relative;
+            z-index: 5;
+            /* background-color: rgb(255, 202, 55); */
+            border-style: ridge;
+            /* border-style: dashed; */
+            /* border-radius: 5px; */
+            border-style: ridge;
+            border-color: rgb(75, 55, 0);
+            border-width: 10px;
+
+            /* background-image: url("../imgs/buddha-2.png");
+            background-size: 400px 500px;
+            background-repeat: no-repeat;
+            background-position: center; */
+
+
+            background: url("../imgs/buddha-2.png"), linear-gradient(0deg, rgb(90, 0, 0), rgb(0, 0, 0), rgb(140, 0, 0));
+            background-size: 400px 500px, 400% 400%;
+            background-position: center, center;
+            background-repeat: no-repeat, no-repeat;
+            animation: gradient-bg 20s ease infinite;
+            height: 100vh;
+        }
+
+        @keyframes gradient-bg {
+            0% {
+                background-position: 50% 0%;
+            }
+
+            50% {
+                background-position: 50% 100%;
+            }
+
+            100% {
+                background-position: 50% 00%;
+            }
+        }
+
+
+        #header.inset {
+            border-style: inset;
+        }
+
+        #header h1,
+        #header h2,
+        #header p {
+            background: url("../imgs/buddha-2.png"), url("../imgs/buddha-1.png"), url("../imgs/buddha-3.png"), ;
+            background-size: 400px 500px, 400px 500px, 400px 500px;
+            display: grid;
+            margin-bottom: -90px;
+        }
+
+        #header h1 {
+            font-size: 300px;
+            text-align: center;
+            color: rgb(195, 174, 118);
+
+        }
+
+        #header h2 {
+            font-size: 75px;
+            font-style: italic;
+            text-align: left;
+            color: rgb(211, 146, 17);
+            width: 650px;
+            display: grid;
+            margin-left: 20px;
+        }
+
+        #header p {
+            font-size: 40px;
+            text-align: right;
+            color: rgb(221, 52, 9);
+            margin-right: 20px;
+            background: url("../imgs/scroll-up.png");
+            background-size: 35px 50px;
+            display: grid;
+            background-repeat: no-repeat;
+            background-position: 67.5%;
+
+        }
+
+        #footer {
+            width: 100%;
+            min-height: 5vh;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            text-align: center;
+            color: rgb(195, 174, 118);
+            line-height: 25px;
+            font-size: 13px;
+            position: relative;
+            z-index: 5;
+            /* margin-bottom: -20px; */
+            background: linear-gradient(0deg, rgb(90, 0, 0), rgb(0, 0, 0), rgb(140, 0, 0));
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            animation: gradient-bg 20s ease infinite;
+            height: 10vh;
+        }
+
+        @keyframes gradient-bg {
+            0% {
+                background-position: 50% 0%;
+            }
+
+            50% {
+                background-position: 50% 100%;
+            }
+
+            100% {
+                background-position: 50% 00%;
+            }
+        }
+
+
+
+        #first-geoglyth {
+            text-align: left;
+        }
+
+        #features {
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+        .centered {
+            width: 50vw;
+            margin: 0 auto;
+        }
+
+        .lefty {
+            width: 33vw;
+            margin-left: 5vw;
+        }
+
+        .righty {
+            width: 33vw;
+            margin-left: 62vw;
+        }
+
+        .fully {
+            width: 100%;
+            margin: auto;
+        }
+
+        .light {
+            color: #c10000;
+            background-color: rgb(195, 174, 118);
+        }
+
+        .dark {
+            color: #aa00ff;
+            background-color: #444;
+        }
+
+        .step {
+            padding-bottom: 50vh;
+            /* margin-bottom: 10vh; */
+            opacity: 0.25;
+        }
+
+        .step.active {
+            opacity: 0.9;
+        }
+
+        .step div {
+            padding: 25px 50px;
+            line-height: 25px;
+            font-size: 13px;
+        }
+
+        .step img {
+            width: 100%;
+        }
+
+        @media (max-width: 750px) {
+
+            .centered,
+            .lefty,
+            .righty,
+            .fully {
+                width: 90vw;
+                margin: 0 auto;
+            }
+        }
+
+        /* Fix issue on mobile browser where scroll breaks  */
+        .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+        .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+            touch-action: unset;
+        }
+
+        #first-button {
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <audio controls autoplay muted loop>
+        <source src="piklans.mp3">
+        <source src="piklans.wav">
+        This browser does not support HTML5 audio
+    </audio> -->
+
+    <!-- <button id="first-button" type="button">Click Me!</button> -->
+
+
+    <div id="map"></div>
+    <div id="mapInset"></div>
+    <div id="story"></div>
+    <script src="../src/config.js"></script>
+    <script src="../js/map.js"></script>
+
+
+
+    <script>
+        var initLoad = true;
+        var layerTypes = {
+            'fill': ['fill-opacity'],
+            'line': ['line-opacity'],
+            'circle': ['circle-opacity', 'circle-stroke-opacity'],
+            'symbol': ['icon-opacity', 'text-opacity'],
+            'raster': ['raster-opacity'],
+            'fill-extrusion': ['fill-extrusion-opacity'],
+            'heatmap': ['heatmap-opacity']
+        }
+
+        var alignments = {
+            'left': 'lefty',
+            'center': 'centered',
+            'right': 'righty',
+            'full': 'fully'
+        }
+
+        function getLayerPaintType(layer) {
+            var layerType = map.getLayer(layer).type;
+            return layerTypes[layerType];
+        }
+
+        function setLayerOpacity(layer) {
+            var paintProps = getLayerPaintType(layer.layer);
+            paintProps.forEach(function (prop) {
+                var options = {};
+                if (layer.duration) {
+                    var transitionProp = prop + "-transition";
+                    options = { "duration": layer.duration };
+                    map.setPaintProperty(layer.layer, transitionProp, options);
+                }
+                map.setPaintProperty(layer.layer, prop, layer.opacity, options);
+            });
+        }
+
+        var story = document.getElementById('story');
+        var features = document.createElement('div');
+        features.setAttribute('id', 'features');
+
+        var header = document.createElement('div');
+
+        if (config.title) {
+            var titleText = document.createElement('h1');
+            titleText.innerText = config.title;
+            header.appendChild(titleText);
+        }
+
+        if (config.subtitle) {
+            var subtitleText = document.createElement('h2');
+            subtitleText.innerText = config.subtitle;
+            header.appendChild(subtitleText);
+        }
+
+        if (config.byline) {
+            var bylineText = document.createElement('p');
+            bylineText.innerText = config.byline;
+            header.appendChild(bylineText);
+        }
+
+        if (header.innerText.length > 0) {
+            header.classList.add(config.theme);
+            header.setAttribute('id', 'header');
+            story.appendChild(header);
+        }
+
+        config.chapters.forEach((record, idx) => {
+            var container = document.createElement('div');
+            var chapter = document.createElement('div');
+
+            if (record.title) {
+                var title = document.createElement('h3');
+                title.innerText = record.title;
+                chapter.appendChild(title);
+            }
+
+            if (record.image) {
+                var image = new Image();
+                image.src = record.image;
+                chapter.appendChild(image);
+            }
+
+            if (record.description) {
+                var story = document.createElement('p');
+                story.innerHTML = record.description;
+                chapter.appendChild(story);
+            }
+
+            container.setAttribute('id', record.id);
+            container.classList.add('step');
+            if (idx === 0) {
+                container.classList.add('active');
+            }
+
+            chapter.classList.add(config.theme);
+            container.appendChild(chapter);
+            container.classList.add(alignments[record.alignment] || 'centered');
+            if (record.hidden) {
+                container.classList.add('hidden');
+            }
+            features.appendChild(container);
+        });
+
+        story.appendChild(features);
+
+        var footer = document.createElement('div');
+
+        if (config.footer) {
+            var footerText = document.createElement('p');
+            footerText.innerHTML = config.footer;
+            footer.appendChild(footerText);
+        }
+
+        if (footer.innerText.length > 0) {
+            footer.classList.add(config.theme);
+            footer.setAttribute('id', 'footer');
+            story.appendChild(footer);
+        }
+
+        mapboxgl.accessToken = config.accessToken;
+
+        const transformRequest = (url) => {
+            const hasQuery = url.indexOf("?") !== -1;
+            const suffix = hasQuery
+                ? "&pluginName=scrollytellingV2"
+                : "?pluginName=scrollytellingV2";
+            return {
+                url: url + suffix,
+            };
+        };
+
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: config.style,
+            // center: [76.9500661, 43.3409728],
+            center: config.chapters[0].location.center,
+            zoom: config.chapters[0].location.zoom,
+            bearing: config.chapters[0].location.bearing,
+            pitch: config.chapters[0].location.pitch,
+            interactive: false,
+            transformRequest: transformRequest,
+            projection: config.projection,
+            // projection: 'naturalEarth',
+
+        });
+
+        // Create a inset map if enabled in config.js
+        if (config.inset) {
+            var insetMap = new mapboxgl.Map({
+                container: 'mapInset', // container id
+                style: 'mapbox://styles/mapbox/dark-v10', //hosted style id
+                center: config.chapters[0].location.center,
+                // Hardcode above center value if you want insetMap to be static.
+                zoom: 3, // starting zoom
+                hash: false,
+                interactive: false,
+                attributionControl: false,
+                //Future: Once official mapbox-gl-js has globe view enabled,
+                //insetmap can be a globe with the following parameter.
+                //projection: 'globe'
+            });
+        }
+
+        if (config.showMarkers) {
+            var marker = new mapboxgl.Marker({ color: config.markerColor });
+            marker.setLngLat(config.chapters[0].location.center).addTo(map);
+        }
+
+        // instantiate the scrollama
+        var scroller = scrollama();
+
+
+        map.on("load", function () {
+            if (config.use3dTerrain) {
+                map.addSource('mapbox-dem', {
+                    'type': 'raster-dem',
+                    'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+                    'tileSize': 512,
+                    'maxzoom': 14
+                });
+                // add the DEM source as a terrain layer with exaggerated height
+                map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+
+                // add a sky layer that will show when the map is highly pitched
+                map.addLayer({
+                    'id': 'sky',
+                    'type': 'sky',
+                    'paint': {
+                        'sky-type': 'atmosphere',
+                        'sky-atmosphere-sun': [0.0, 0.0],
+                        'sky-atmosphere-sun-intensity': 15
+                    }
+                });
+            };
+
+            // silk road
+            map.addSource('silkroad', {
+                'type': 'geojson',
+                // Use a URL for the value for the `data` property.
+                'data': '../assets/silkroad.geojson'
+            });
+
+            map.addLayer({
+                'id': 'silkroad-layer',
+                'type': 'line',
+                'source': 'silkroad',
+                'layout': {
+                    'line-cap': 'round',
+                    'line-join': 'round'
+                },
+                'paint': {
+                    'line-color': ['get', 'color'],
+                    'line-width': 5,
+                    'line-opacity': 0.5
+
+                }
+            });
+
+
+
+            // road points
+            map.addSource('cities', {
+                'type': 'geojson',
+                // Use a URL for the value for the `data` property.
+                'data': '../assets/cities.geojson'
+            });
+
+            map.addLayer({
+                'id': 'cities-layer',
+                'type': 'circle',
+                'source': 'cities',
+
+                'paint': {
+                    'circle-radius': 6,
+                    'circle-color': "#ff1303",
+                    'circle-opacity': 1,
+                    'circle-stroke-color': "#000000",
+                    'circle-stroke-width': 1,
+                }
+            });
+
+
+
+
+            // add historic points
+            map.loadImage('../assets/pin.png', (error, image) => {
+                if (error) throw error;
+                map.addImage('pin-icon', image, { 'sdf': true });
+                map.addSource('historic', {
+                    'type': 'geojson',
+                    'data': '../assets/historic.geojson'
+                });
+                map.addLayer({
+                    'id': 'historic-layer',
+                    'type': 'symbol',
+                    'source': 'historic',
+                    'layout': {
+                        'icon-image': 'pin-icon',
+                        'icon-size': 0.05,
+
+
+                        // get the title name from the source's "title" property
+                        'text-field': ['get', 'title'],
+                        'text-font': [
+                            'Open Sans Semibold',
+                            'Arial Unicode MS Bold'
+                        ],
+                        'text-offset': [0, 1.25],
+                        'text-anchor': 'top'
+                    },
+                    'paint': {
+                        // might customize color or not
+                        // 'icon-color': "#000000",
+                        // 'text-color': "#000000",
+                        'icon-color': "#5a0000",
+                        'text-color': "#5a0000",
+                        'text-opacity': 1,
+                        'icon-opacity': 1,
+
+                    }
+                });
+            });
+
+
+
+
+
+
+            // add symbol
+            map.loadImage('../assets/train.png', (error, image) => {
+                if (error) throw error;
+                map.addImage('train-icon', image, { 'sdf': true });
+                map.addSource('railstation', {
+                    'type': 'geojson',
+                    'data': '../assets/railstation.geojson'
+                });
+                map.addLayer({
+                    'id': 'railstation-layer',
+                    'type': 'symbol',
+                    'source': 'railstation',
+                    'layout': {
+                        'icon-image': 'train-icon',
+                        'icon-size': 0.05,
+
+                        // get the title name from the source's "title" property
+                        'text-field': ['get', 'title'],
+                        'text-font': [
+                            'Open Sans Semibold',
+                            'Arial Unicode MS Bold'
+                        ],
+                        'text-offset': [0, 1.25],
+                        'text-anchor': 'top'
+                    },
+                    'paint': {
+                        'icon-color': '#000000',
+                        // 'icon-color': '#5a0000',
+
+
+                    }
+                });
+            });
+        });
+
+
+        // add polygon
+        map.on('load', () => {
+            // Add a data source containing GeoJSON data.
+            map.addSource('tarim', {
+                'type': 'geojson',
+                'data': {
+                    'type': 'Feature',
+                    'geometry': {
+                        'type': 'Polygon',
+                        // These coordinates outline Maine.
+                        'coordinates': [
+                            [
+                                [
+                                    78.0815621513554,
+                                    39.02898595955756
+                                ],
+                                [
+                                    78.86697097935303,
+                                    39.591090422163006
+                                ],
+                                [
+                                    79.5308999528981,
+                                    40.172088983068534
+                                ],
+                                [
+                                    80.05212148314132,
+                                    40.36374738413352
+                                ],
+                                [
+                                    80.66909784652626,
+                                    40.32480103129208
+                                ],
+                                [
+                                    80.93059672971197,
+                                    40.40415406113226
+                                ],
+                                [
+                                    81.3817039418808,
+                                    40.41747679137984
+                                ],
+                                [
+                                    82.0693816612577,
+                                    40.7261862931239
+                                ],
+                                [
+                                    82.49779555969917,
+                                    40.88891568860538
+                                ],
+                                [
+                                    83.09102230283895,
+                                    40.88675960618667
+                                ],
+                                [
+                                    83.5961973817137,
+                                    40.873388592427716
+                                ],
+                                [
+                                    83.84992493750883,
+                                    40.899577366635896
+                                ],
+                                [
+                                    84.13486227989006,
+                                    41.08819392975076
+                                ],
+                                [
+                                    84.67461785578098,
+                                    41.19582637905404
+                                ],
+                                [
+                                    85.1313036392113,
+                                    41.11066100170012
+                                ],
+                                [
+                                    85.46849307070761,
+                                    40.94956294765666
+                                ],
+                                [
+                                    85.96188182577572,
+                                    41.03425738606575
+                                ],
+                                [
+                                    86.37229156076478,
+                                    40.99431718784081
+                                ],
+                                [
+                                    86.73672249895867,
+                                    41.012613561184
+                                ],
+                                [
+                                    87.56509176016249,
+                                    40.64540825122063
+                                ],
+                                [
+                                    88.19150387412316,
+                                    40.34833860284439
+                                ],
+                                [
+                                    88.4821386076701,
+                                    40.10211711796845
+                                ],
+                                [
+                                    88.52789782130776,
+                                    39.76985361958418
+                                ],
+                                [
+                                    88.29078787928347,
+                                    39.171063317676754
+                                ],
+                                [
+                                    87.6271418652799,
+                                    38.72037867503755
+                                ],
+                                [
+                                    87.10083282633741,
+                                    38.60945659895776
+                                ],
+                                [
+                                    86.23826910245555,
+                                    38.643843375398944
+                                ],
+                                [
+                                    85.60464753295219,
+                                    38.35813838857703
+                                ],
+                                [
+                                    85.20629691207267,
+                                    38.24529783171221
+                                ],
+                                [
+                                    84.72347494293507,
+                                    38.08531666709078
+                                ],
+                                [
+                                    83.86378181758528,
+                                    37.700107997056776
+                                ],
+                                [
+                                    83.43692473447248,
+                                    37.39920399825212
+                                ],
+                                [
+                                    83.01528832003379,
+                                    37.31697658424868
+                                ],
+                                [
+                                    82.57003161695468,
+                                    36.98286585235461
+                                ],
+                                [
+                                    81.84121741952004,
+                                    36.78948642925529
+                                ],
+                                [
+                                    81.21888051816728,
+                                    36.890494356375115
+                                ],
+                                [
+                                    80.71420182939903,
+                                    36.98936087368611
+                                ],
+                                [
+                                    79.93183313010883,
+                                    37.01141425341844
+                                ],
+                                [
+                                    78.69303263431203,
+                                    37.406949385712565
+                                ],
+                                [
+                                    78.14066443061478,
+                                    37.67478084862314
+                                ],
+                                [
+                                    77.57878563633204,
+                                    37.978508429889246
+                                ],
+                                [
+                                    77.75180106567791,
+                                    38.448872455356565
+                                ],
+                                [
+                                    77.73166699959944,
+                                    38.7848681838162
+                                ],
+                                [
+                                    78.08062635989785,
+                                    39.02857015011196
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            });
+
+
+
+            // Add a new layer to visualize the polygon.
+            map.addLayer({
+                'id': 'basin',
+                'type': 'fill',
+                'source': 'tarim', // reference the data source
+                'layout': {},
+                'paint': {
+                    'fill-color': '#bda522', // blue color fill
+                    'fill-opacity': 0.5
+                }
+            });
+            // Add a black outline around the polygon.
+            map.addLayer({
+                'id': 'lake',
+                'type': 'line',
+                'source': 'tarim',
+                'layout': {},
+                'paint': {
+                    'line-color': '#000000',
+                    'line-width': 1
+                }
+            });
+
+
+
+
+
+
+
+
+
+
+
+
+            // start end boundaries
+            map.addSource('startend', {
+                'type': 'geojson',
+                // Use a URL for the value for the `data` property.
+                'data': '../assets/start.geojson'
+            });
+
+            map.addLayer({
+                'id': 'startend-layer',
+                'type': 'line',
+                'source': 'startend',
+                'layout': {
+                    'line-cap': 'round',
+                    'line-join': 'round'
+                },
+                'paint': {
+                    'line-color': "#000000",
+                    'line-width': 5,
+                    'line-opacity': 1
+
+                }
+            });
+            map.addLayer({
+                'type': 'line',
+                'source': 'startend',
+                'id': 'line-dashed',
+                'paint': {
+                    'line-color': 'red',
+                    'line-width': 6,
+                    'line-dasharray': [0, 4, 3]
+                }
+
+
+
+            });
+
+            // add dashed line animation
+            const dashArraySequence = [
+                [0, 4, 3],
+                [0.5, 4, 2.5],
+                [1, 4, 2],
+                [1.5, 4, 1.5],
+                [2, 4, 1],
+                [2.5, 4, 0.5],
+                [3, 4, 0],
+                [0, 0.5, 3, 3.5],
+                [0, 1, 3, 3],
+                [0, 1.5, 3, 2.5],
+                [0, 2, 3, 2],
+                [0, 2.5, 3, 1.5],
+                [0, 3, 3, 1],
+                [0, 3.5, 3, 0.5]
+            ];
+
+            let step = 0;
+
+            function animateDashArray(timestamp) {
+                // Update line-dasharray using the next value in dashArraySequence. The
+                // divisor in the expression `timestamp / 50` controls the animation speed.
+                const newStep = parseInt(
+                    (timestamp / 50) % dashArraySequence.length
+                );
+
+                if (newStep !== step) {
+                    map.setPaintProperty(
+                        'line-dashed',
+                        'line-dasharray',
+                        dashArraySequence[step]
+                    );
+                    step = newStep;
+                }
+
+                // Request the next frame of the animation.
+                requestAnimationFrame(animateDashArray);
+            }
+
+            // start the animation
+            animateDashArray(0);
+
+
+
+            // rotate map
+            map.rotateTo(180, { duration: 10000 });
+
+
+
+
+            // As the map moves, grab and update bounds in inset map.
+            if (config.inset) {
+                map.on('move', getInsetBounds);
+            }
+            // setup the instance, pass callback functions
+            scroller
+                .setup({
+                    step: '.step',
+                    offset: 0.5,
+                    progress: true
+                })
+                .onStepEnter(async response => {
+                    var current_chapter = config.chapters.findIndex(chap => chap.id === response.element.id);
+                    var chapter = config.chapters[current_chapter];
+
+                    response.element.classList.add('active');
+                    map[chapter.mapAnimation || 'flyTo'](chapter.location);
+
+
+
+                    // Incase you do not want to have a dynamic inset map,
+                    // rather want to keep it a static view but still change the
+                    // bbox as main map move: comment out the below if section.
+                    if (config.inset) {
+                        if (chapter.location.zoom < 5) {
+                            insetMap.flyTo({ center: chapter.location.center, zoom: 0 });
+                        }
+                        else {
+                            insetMap.flyTo({ center: chapter.location.center, zoom: 3 });
+                        }
+                    }
+                    if (config.showMarkers) {
+                        marker.setLngLat(chapter.location.center);
+                    }
+                    if (chapter.onChapterEnter.length > 0) {
+                        chapter.onChapterEnter.forEach(setLayerOpacity);
+                    }
+                    if (chapter.callback) {
+                        window[chapter.callback]();
+                    }
+                    if (chapter.rotateAnimation) {
+                        map.once('moveend', () => {
+                            const rotateNumber = map.getBearing();
+                            map.rotateTo(rotateNumber + 180, {
+                                duration: 30000, easing: function (t) {
+                                    return t;
+                                }
+                            });
+                        });
+                    }
+                    if (config.auto) {
+                        var next_chapter = (current_chapter + 1) % config.chapters.length;
+                        map.once('moveend', () => {
+                            document.querySelectorAll('[data-scrollama-index="' + next_chapter.toString() + '"]')[0].scrollIntoView();
+                        });
+                    }
+                })
+                .onStepExit(response => {
+                    var chapter = config.chapters.find(chap => chap.id === response.element.id);
+                    response.element.classList.remove('active');
+                    if (chapter.onChapterExit.length > 0) {
+                        chapter.onChapterExit.forEach(setLayerOpacity);
+                    }
+                });
+
+
+            if (config.auto) {
+                document.querySelectorAll('[data-scrollama-index="0"]')[0].scrollIntoView();
+            }
+        });
+
+        //Helper functions for insetmap
+        function getInsetBounds() {
+            let bounds = map.getBounds();
+
+            let boundsJson = {
+                "type": "FeatureCollection",
+                "features": [{
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    bounds._sw.lng,
+                                    bounds._sw.lat
+                                ],
+                                [
+                                    bounds._ne.lng,
+                                    bounds._sw.lat
+                                ],
+                                [
+                                    bounds._ne.lng,
+                                    bounds._ne.lat
+                                ],
+                                [
+                                    bounds._sw.lng,
+                                    bounds._ne.lat
+                                ],
+                                [
+                                    bounds._sw.lng,
+                                    bounds._sw.lat
+                                ]
+                            ]
+                        ]
+                    }
+                }]
+            }
+
+            if (initLoad) {
+                addInsetLayer(boundsJson);
+                initLoad = false;
+            } else {
+                updateInsetLayer(boundsJson);
+            }
+
+        }
+
+        function addInsetLayer(bounds) {
+            insetMap.addSource('boundsSource', {
+                'type': 'geojson',
+                'data': bounds
+            });
+
+            insetMap.addLayer({
+                'id': 'boundsLayer',
+                'type': 'fill',
+                'source': 'boundsSource', // reference the data source
+                'layout': {},
+                'paint': {
+                    'fill-color': '#fff', // blue color fill
+                    'fill-opacity': 0.2
+                }
+            });
+            // // Add a black outline around the polygon.
+            insetMap.addLayer({
+                'id': 'outlineLayer',
+                'type': 'line',
+                'source': 'boundsSource',
+                'layout': {},
+                'paint': {
+                    'line-color': '#000',
+                    'line-width': 1
+                }
+            });
+        }
+
+        function updateInsetLayer(bounds) {
+            insetMap.getSource('boundsSource').setData(bounds);
+        }
+
+
+
+        // setup resize event
+        window.addEventListener('resize', scroller.resize);
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+{
+    "type": "FeatureCollection",
+    "name": "cities",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Xi’an, China",
+                "Name": "Xi’an, China"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.940178,
+                    34.341568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Merv, Turkmenistan",
+                "Name": "Merv, Turkmenistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    62.18608599613647,
+                    37.744589108525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Samarkand, Uzbekistan",
+                "Name": "Samarkand, Uzbekistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    66.970139,
+                    39.652451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Balkh, Afghanistan",
+                "Name": "Balkh, Afghanistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    66.91093290931767,
+                    36.848716446339054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Constantinople, Turkey",
+                "Name": "Constantinople, Turkey"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.979530,
+                    41.015137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Ctesiphon, Iraq",
+                "Name": "Ctesiphon, Iraq"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.56647185890964,
+                    33.181890344898804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Taxila, Pakistan",
+                "Name": "Taxila, Pakistan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.799441,
+                    33.736965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Damascus, Syria",
+                "Name": "Damascus, Syria"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.278336,
+                    33.510414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Rey, Iran",
+                "Name": "Rey, Iran"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.44623,
+                    35.61246
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Dunhuang, China",
+                "Name": "Dunhuang, China"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.661880,
+                    40.142132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Loulan Kingdom",
+                "Name": "Loulan Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.84009988111958,
+                    40.52889975575823
+                ]
+            }
+        }
+    ]
+}
