@@ -9,16 +9,16 @@ Inspired by the mystery of the Loulan Kingdom which is found near the silk road 
  </div>
  
  <div>
- Technical Source Referencing from <a href="[https://connorrothschild.github.io](https://connorrothschild.github.io)">Mapbox Storytelling
+ Technical Source Referencing from <a href="https://github.com/mapbox/storytelling">Mapbox Storytelling
 </a> 
- <a href="[[https://www.heritagedaily.com/2020/04/the-nazca-lines-interactive-map/127496](https://www.thecollector.com/what-was-the-silk-road/)](https://map.huttrip.com)](https://map.huttrip.com)">huttrip map
+ <a href="https://map.huttrip.com">huttrip map
 </a>
   <a href="https://pointsunknown.nyc/web%20mapping/mapbox/2021/07/20/11A_MapboxStorytelling.html">Points Unknown
 </a>
  </div>
  
   <div>
- Created using <a href="[https://connorrothschild.github.io](https://github.com/mapbox/storytelling)">Mapping Storytelling
+ Created using <a href="https://github.com/mapbox/storytelling">Mapping Storytelling
 </a> template
 
  </div>
