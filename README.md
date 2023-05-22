@@ -3,7 +3,7 @@
 Inspired by the mystery of the Loulan Kingdom which is found near the silk road to create this storytelling silk road map. Created using <a href="https://github.com/mapbox/storytelling">Mapping Storytelling</a> template.
   <hr>
 <div>
-  <strong>Historical Content </strong> Referencing from 
+  <strong>Historical Content </strong> referencing from 
    <div>-><a href="https://www.thecollector.com/silk-road-cities/#">Here Are The 10 Largest Cities of the Silk Road
 </a> </div>
   <div>-><a href="https://www.thecollector.com/what-was-the-silk-road/">What Was the Silk Road & What Was Traded on It?
@@ -13,7 +13,7 @@ Inspired by the mystery of the Loulan Kingdom which is found near the silk road 
  </div>
  <hr>
  <div>
-  <strong>Technical Source </strong> Referencing from 
+  <strong>Technical Source </strong> referencing from 
  <div>-><a href="https://connorrothschild.github.io">Mapping Missing Migrants
   </a></div> 
  <div>-><a href="https://map.huttrip.com">huttrip map
