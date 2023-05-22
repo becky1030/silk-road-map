@@ -1,7 +1,6 @@
 # The Silk Road Map
  
-Inspired by the mystery of the Loulan Kingdom which is found near the silk road to create this storytelling silk road map. 
-<br>Created using <a href="https://github.com/mapbox/storytelling">Mapping Storytelling</a> template
+Inspired by the mystery of the Loulan Kingdom which is found near the silk road to create this storytelling silk road map.Created using <a href="https://github.com/mapbox/storytelling">Mapping Storytelling</a> template
   <hr>
 <div>
   <strong>Historical Content </strong> Referencing from 
