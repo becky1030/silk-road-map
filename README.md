@@ -2,21 +2,21 @@
  
 Inspired by the mystery of the Loulan Kingdom which is found near the silk road to create this storytelling silk road map.
 <div>
- Historical Content Referencing from <a href="https://www.thecollector.com/silk-road-cities/#">Here Are The 10 Largest Cities of the Silk Road
+  <strong>Historical Content </strong> Referencing from <a href="https://www.thecollector.com/silk-road-cities/#">Here Are The 10 Largest Cities of the Silk Road
 </a> &
 <a href="https://www.thecollector.com/what-was-the-silk-road/">What Was the Silk Road & What Was Traded on It?
 </a>
  </div>
- 
+ <hr>
  <div>
- Technical Source Referencing from <a href="https://github.com/mapbox/storytelling">Mapbox Storytelling
+  <strong>Technical Source </strong> Referencing from <a href="https://github.com/mapbox/storytelling">Mapbox Storytelling
 </a> &
  <a href="https://map.huttrip.com">huttrip map
 </a>&
   <a href="https://pointsunknown.nyc/web%20mapping/mapbox/2021/07/20/11A_MapboxStorytelling.html">Points Unknown
 </a>
  </div>
- 
+ <hr>
   <div>
  Created using <a href="https://github.com/mapbox/storytelling">Mapping Storytelling
 </a> template
