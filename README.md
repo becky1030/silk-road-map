@@ -12,7 +12,8 @@ Inspired by the mystery of the Loulan Kingdom which is found near the silk road 
  </div>
  <hr>
  <div>
-  <strong>Technical Source </strong> Referencing from <a href="https://github.com/mapbox/storytelling">Mapbox Storytelling
+  <strong>Technical Source </strong> Referencing from 
+ <a href="https://github.com/mapbox/storytelling">Mapbox Storytelling
 </a> &
  <a href="https://map.huttrip.com">huttrip map
 </a>&
