@@ -14,11 +14,11 @@ Inspired by the mystery of the Loulan Kingdom which is found near the silk road 
  <div>
   <strong>Technical Source </strong> Referencing from 
  <div>-><a href="https://github.com/mapbox/storytelling">Mapbox Storytelling
-  </a></div> &
- <a href="https://map.huttrip.com">huttrip map
-</a>&
-  <a href="https://pointsunknown.nyc/web%20mapping/mapbox/2021/07/20/11A_MapboxStorytelling.html">Points Unknown
-</a>
+  </a></div> 
+ <div>-><a href="https://map.huttrip.com">huttrip map
+</a></div>
+  <div>-><a href="https://pointsunknown.nyc/web%20mapping/mapbox/2021/07/20/11A_MapboxStorytelling.html">Points Unknown
+</a></div>
  </div>
  <hr>
   
