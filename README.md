@@ -1,6 +1,10 @@
 # The Silk Road Map
  
-Inspired by the mystery of the Loulan Kingdom which is found near the silk road to create this storytelling silk road map.
+Inspired by the mystery of the Loulan Kingdom which is found near the silk road to create this storytelling silk road map. 
+ Created using <a href="https://github.com/mapbox/storytelling">Mapping Storytelling
+</a> template
+ 
+ <br>
 <div>
   <strong>Historical Content </strong> Referencing from <a href="https://www.thecollector.com/silk-road-cities/#">Here Are The 10 Largest Cities of the Silk Road
 </a> &
@@ -17,13 +21,9 @@ Inspired by the mystery of the Loulan Kingdom which is found near the silk road 
 </a>
  </div>
  <hr>
-  <div>
- Created using <a href="https://github.com/mapbox/storytelling">Mapping Storytelling
-</a> template
-
- </div>
+  
  <strong>Tools</strong>: <ins>Geojson</ins>, <ins>mapbox</ins>, <ins>html</ins>, <ins>css</ins>, <ins>javascript</ins>
-
+<hr>
 ![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/112721395/233448881-d8d241ea-a454-4b44-a6df-55275d174452.gif)![g3](https://user-images.githubusercontent.com/112721395/233450655-b9ac79f6-a9cb-4a57-818c-8f8e02405081.jpeg)
 
 
