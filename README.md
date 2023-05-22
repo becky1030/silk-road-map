@@ -23,9 +23,8 @@ Inspired by the mystery of the Loulan Kingdom which is found near the silk road 
   
  <strong>Tools</strong>: <ins>Geojson</ins>, <ins>mapbox</ins>, <ins>html</ins>, <ins>css</ins>, <ins>javascript</ins>
 <hr>
-![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/112721395/233448881-d8d241ea-a454-4b44-a6df-55275d174452.gif)![g3](https://user-images.githubusercontent.com/112721395/233450655-b9ac79f6-a9cb-4a57-818c-8f8e02405081.jpeg)
-
-
-![g2](https://user-images.githubusercontent.com/112721395/233450644-e99251a6-f418-4384-9a8d-ffb1865c5f6b.jpeg)
-![g4](https://user-images.githubusercontent.com/112721395/233450657-9fe47fba-93ef-4bce-9ef9-565dd29b8477.jpeg)
-![g6](https://user-images.githubusercontent.com/112721395/233450659-f6a7b46d-1804-4e96-a84e-4642f8d19d7d.jpeg)
+<img width="1721" alt="Screenshot 2023-05-21 at 10 41 23 PM" src="https://github.com/becky1030/silk-road-map/assets/112721395/95d7cdbb-bce4-4c83-bbb7-e10673b68369">
+<img width="1721" alt="Screenshot 2023-05-21 at 10 41 57 PM" src="https://github.com/becky1030/silk-road-map/assets/112721395/c9f74539-aa72-4a4f-b702-868f195cf38c">
+<img width="1721" alt="Screenshot 2023-05-21 at 10 45 47 PM" src="https://github.com/becky1030/silk-road-map/assets/112721395/1100820d-28c6-49e9-b1c4-736aee12546f">
+<img width="1721" alt="Screenshot 2023-05-21 at 10 43 05 PM" src="https://github.com/becky1030/silk-road-map/assets/112721395/c8bad52e-0557-4c6c-b598-f43e680ee33c">
+<img width="1721" alt="Screenshot 2023-05-21 at 10 44 35 PM" src="https://github.com/becky1030/silk-road-map/assets/112721395/0e5f4714-129b-4f7d-abb4-b010b34473bd">
