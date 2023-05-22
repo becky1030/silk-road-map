@@ -5,15 +5,16 @@ Inspired by the mystery of the Loulan Kingdom which is found near the silk road 
  
  <br>
 <div>
-  <strong>Historical Content </strong> Referencing from <a href="https://www.thecollector.com/silk-road-cities/#">Here Are The 10 Largest Cities of the Silk Road
-</a> &
-<a href="https://www.thecollector.com/what-was-the-silk-road/">What Was the Silk Road & What Was Traded on It?
-</a>
+  <strong>Historical Content </strong> Referencing from 
+   <div>-><a href="https://www.thecollector.com/silk-road-cities/#">Here Are The 10 Largest Cities of the Silk Road
+</a> </div>
+  <div>-><a href="https://www.thecollector.com/what-was-the-silk-road/">What Was the Silk Road & What Was Traded on It?
+</a></div>
  </div>
  <hr>
  <div>
   <strong>Technical Source </strong> Referencing from 
- <div>-><a href="https://github.com/mapbox/storytelling">Mapbox Storytelling
+ <div>-><a href="https://connorrothschild.github.io">Mapping Missing Migrants
   </a></div> 
  <div>-><a href="https://map.huttrip.com">huttrip map
 </a></div>
